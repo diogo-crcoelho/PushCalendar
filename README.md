@@ -3,6 +3,7 @@
 This projects utilizes GoogleCalendarAPI and pushBulletAPI Wrappers push a nootification to a device of the Schedule for the day, and the day after.
 
 🔗  Key Links 🔗
+
 https://developers.google.com/calendar/api/quickstart/python
 https://github.com/rbrcsk/pushbullet.py
 
