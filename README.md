@@ -15,7 +15,7 @@ pip install python-dotenv
 ```
 2. Enable Google Calendar API and download `credentials.json`, from the [Google Cloud Platform](https://console.cloud.google.com/apis/credentials)
 
-3. Save your Pushbullet token in a `.env` on the main directory
+3. Save your Pushbullet token in a `.env` on the main directory. Example on the repository
 
 4. To run simply
 ```
