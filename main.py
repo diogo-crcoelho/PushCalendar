@@ -93,6 +93,8 @@ def parse_message(events):
         date (date/dateTime): _description_
     """
     message = "Today: \n"
+    if events[0] == []
+        mesage += "N/A\n"
     for event in events[0]:
         start = event['start'].get('dateTime', event['start'].get('date'))
         if "T" in start:
@@ -101,6 +103,8 @@ def parse_message(events):
             time = "all day "
         message += f"{event['summary']} {time[:-1]} \n"
     message += "============*============\nTomorrow\n"
+    if events[1] == []
+        mesage += "N/A\n
     for event in events[1]:
         start = event['start'].get('dateTime', event['start'].get('date'))
         if "T" in start:
