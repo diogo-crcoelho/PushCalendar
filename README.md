@@ -20,7 +20,7 @@ pip install python-dotenv
 
 4. To run simply
 ```
-python run main.py
+python main.py
 ```
 
 You can make it run periodically by assigning it to cronjob ou by using the APScheduler python module
